@@ -54,7 +54,7 @@ h2 {
 }
 
 .avatar-div {
-    background: url("./images/avatar-luka.jpg");
+    background: url("../images/avatar-luka.jpg");
     height: 45px;
     width: 45px;
     background-size: cover;
@@ -75,7 +75,7 @@ h2 {
 }
 
 .share {
-    background: url("./images/icon-share.svg") center no-repeat;
+    background: url("../images/icon-share.svg") center no-repeat;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -114,7 +114,7 @@ div.hide {
 }
 
 .shared {
-    background: url("./images/icon-share.svg") center no-repeat;
+    background: url("../images/icon-share.svg") center no-repeat;
     height: 40px;
     width: 40px;
     border-radius: 50%;
