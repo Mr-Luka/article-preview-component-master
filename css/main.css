@@ -13,7 +13,6 @@ main {
     border-radius: 0.8rem;
     box-shadow: 0 2px 20px hsl(215, 28%, 77%);
     text-align: center;
-    overflow: hidden;
 }
 
 .hero-image {
@@ -162,6 +161,7 @@ div.hide {
         display: flex;
         justify-content: space-between;
         margin-top: 1rem;
+        position: relative;
     }
 
     .popup-desktop img {
@@ -183,13 +183,25 @@ div.hide {
         z-index: 1;
         position: absolute;
         height: 20px;
-        top: 23%;
-        left: 66%;
+        bottom: 75px;
+        right: -100px;
         overflow: visible;
-        box-shadow: 0 2px 20px hsl(215, 28%, 77%);
+        box-shadow: 0 2px 20px rgb(180, 194, 213);   
     }
-    share-icons {
+    .share-icons {
         display: none;
+    }
+    .triangle {
+        width: 0; 
+        height: 0; 
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid rgb(72, 85, 106);
+        position: absolute;
+        bottom: 55px;
+        right: 0px;
+        z-index: 1;
+
     }
 
 }
