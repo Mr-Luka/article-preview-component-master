@@ -17,9 +17,10 @@ main {
 }
 
 .hero-image {
-    background: url("./images/drawers.jpg");
+    background: url("../images/drawers.jpg");
     background-size: cover;
     height: 240px;
+    width: auto;
 }
 
 section {
@@ -187,6 +188,9 @@ div.hide {
         left: 66%;
         overflow: visible;
         box-shadow: 0 2px 20px hsl(215, 28%, 77%);
+    }
+    share-icons {
+        display: none;
     }
 
 }
