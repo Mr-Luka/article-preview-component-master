@@ -14,6 +14,6 @@ share.addEventListener("click", function(){
         shareIconsMob.classList.add("hide");
         nameAvatar.classList.remove("hide");
     }
-})
+})      
 
 

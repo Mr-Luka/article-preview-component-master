@@ -17,10 +17,9 @@ main {
 }
 
 .hero-image {
-    background: url("../images/drawers.jpg");
+      background: url("../images/drawers.jpg");
     background-size: cover;
     height: 240px;
-    width: auto;
 }
 
 section {
